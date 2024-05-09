@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".Activity.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:layout_height="250dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acc_10"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:ems="10"
+                android:hint="Name"
+                android:background="@drawable/ic_edittext_bg"
+                android:inputType="text"
+                android:textSize="14sp" />
+            <EditText
+                android:background="@drawable/ic_edittext_bg"
+                android:id="@+id/emailTxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="14sp" />
+            <EditText
+                android:background="@drawable/ic_edittext_bg"
+                android:id="@+id/passwordTxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:hint="Password"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPassword"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/singupBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Register" />
+
+            <TextView
+                android:id="@+id/loginRegi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/acc_6"
+                android:textAlignment="center"
+                android:textColor="@color/fe_rupp"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</LinearLayout>

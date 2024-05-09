@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">E-commerce</string>
+    <string name="intro_title">Get new experiences<font color="#0B6AFC"> \n In world of Shop</font></string>
+    <string name="intro_text">Browse the latest styles from top brands\n Get personalized recommendations\n Enjoy fast, free shipping</string>
+    <string name="intro_signin">Already have an account? <font color="#6033ba">Sign In</font></string>
+    <string name="get_start">Let\'s Get Started</string>
+    <string name="logo1">S.H</string>
+    <string name="logo2">Online Shop</string>
+
+
+    // Account
+    <string name="acc_1">Login to Your Account</string>
+    <string name="acc_2">Email or Username</string>
+    <string name="acc_3">password</string>
+    <string name="acc_4">Login</string>
+    <string name="acc_5">New user? <font color="#0B6AFC"> Register now</font></string>
+    <string name="acc_6">Already Have Account?<font color="#0B6AFC"> Login</font></string>
+    <string name="acc_7">or login with</string>
+    <string name="acc_8">Remember me</string>
+    <string name="acc_9">Forget password</string>
+    <string name="acc_10">Register Now</string>
+
+
+    // Menu Navigation
+    <string name="menu_1">Explore</string>
+    <string name="menu_2">Cart</string>
+    <string name="menu_3">Wishlist</string>
+    <string name="menu_4">My Order</string>
+    <string name="menu_5">Profile</string>
+</resources>
