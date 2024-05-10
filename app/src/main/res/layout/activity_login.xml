@@ -56,26 +56,25 @@
             android:padding="16dp">
 
             <EditText
+
                 android:id="@+id/emailTxt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginBottom="16dp"
-                android:ems="10"
-                android:background="@drawable/ic_edittext_bg"
+                android:background="@drawable/custom_bg"
                 android:hint="@string/acc_2"
                 android:inputType="textEmailAddress"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/passwordTxt"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/ic_edittext_bg"
+                android:background="@drawable/custom_bg"
                 android:ems="10"
                 android:hint="@string/acc_3"
                 android:inputType="textPassword"
-                android:paddingEnd="10dp"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
